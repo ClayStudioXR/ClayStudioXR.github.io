@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
+import { withBasePath } from "@/lib/base-path";
 
 export const Route = createFileRoute("/privacy")({
   head: () => ({
@@ -16,7 +17,7 @@ export const Route = createFileRoute("/privacy")({
         content: "How ClayStudio handles your data on Apple Vision Pro.",
       },
     ],
-    links: [{ rel: "canonical", href: "/privacy" }],
+    links: [{ rel: "canonical", href: withBasePath("/privacy") }],
   }),
   component: PrivacyPage,
 });

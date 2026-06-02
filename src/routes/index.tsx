@@ -3,6 +3,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import icon from "@/assets/claystudio-icon.png";
 import appShot from "@/assets/claystudio-app.png";
+import { withBasePath } from "@/lib/base-path";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -22,7 +23,7 @@ export const Route = createFileRoute("/")({
       { property: "og:image", content: icon },
       { name: "twitter:image", content: icon },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: withBasePath("/") }],
   }),
   component: Index,
 });
