@@ -54,8 +54,8 @@ function Index() {
           </h1>
           <p className="mt-6 text-lg text-muted-foreground max-w-lg leading-relaxed">
             ClayStudio brings the potter's wheel into spatial reality. A spinning block of clay
-            floats in front of you — form it directly with your fingertips. No controllers. No
-            menus. Just craft.
+            floats in front of you — form it directly with your fingertips. No controllers.
+            Just craft.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
@@ -91,20 +91,20 @@ function Index() {
       {/* Experience */}
       <section id="experience" className="mx-auto max-w-6xl px-6 py-16">
         <h2 className="text-4xl md:text-5xl font-bold max-w-2xl">
-          A potter's wheel, suspended in your room.
+          A potter's wheel in your room.
         </h2>
         <div className="mt-10 grid md:grid-cols-3 gap-5">
           <Feature
             title="Bare-hand shaping"
-            body="Reach out, pinch, and pull. ClayStudio reads your hands directly — every gesture moves the clay in real time."
+            body="ClayStudio reads your hands directly — every gesture moves the clay in real time."
           />
           <Feature
-            title="No menus, no controllers"
+            title="No controllers"
             body="The experience is the interface. Speed up the wheel with a gentle nudge. Smooth the rim with a fingertip."
           />
           <Feature
             title="Meditative by design"
-            body="Soft ambient sound, the quiet whir of the wheel, warm clay light. A studio that travels with you."
+            body="A calm creative space, wherever you are. No distractions, no notifications, no pressure — just you and the clay."
           />
         </div>
       </section>
@@ -117,7 +117,7 @@ function Index() {
               Your potter's wheel <span className="text-primary">is ready.</span>
             </h2>
             <p className="mt-5 text-muted-foreground text-lg leading-relaxed max-w-md">
-              Launch the app from your Home View, raise your hands, and begin. Every session is
+              Launch the app from your Apple Vision Pro home screen, raise your hands, and begin. Every session is
               yours — slow, tactile, unhurried.
             </p>
             <div className="mt-8 rounded-3xl border border-dashed border-border bg-card/40 p-8 text-center text-muted-foreground">

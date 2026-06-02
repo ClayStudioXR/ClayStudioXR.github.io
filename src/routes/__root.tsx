@@ -71,7 +71,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Shape clay with your hands in spatial reality. ClayStudio brings the potter's wheel to Apple Vision Pro — no controllers, no menus.",
+          "Shape clay with your hands in spatial reality. ClayStudio brings the potter's wheel to Apple Vision Pro — no controllers, just your hands.",
       },
       { name: "author", content: "Martyna Talaga & Paweł Wasilewski" },
       { name: "theme-color", content: "#C17B5C" },
