@@ -11,7 +11,10 @@ export function SiteFooter() {
             Home
           </Link>
           <Link to="/privacy" className="hover:text-foreground">
-            Privacy Policy
+            App Privacy Policy
+          </Link>
+          <Link to="/website-privacy" className="hover:text-foreground">
+            Website Privacy Notice
           </Link>
           <a href="mailto:claystudio.xr@gmail.com" className="hover:text-foreground">
             Contact

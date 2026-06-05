@@ -8,20 +8,20 @@ import { withBasePath } from "@/lib/base-path";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "ClayStudio Early Access — Spatial Pottery on Apple Vision Pro" },
+      { title: "ClayStudio — Spatial Pottery on Apple Vision Pro" },
       {
         name: "description",
         content:
-          "Try ClayStudio in Early Access and shape clay with your bare hands in spatial reality. A meditative pottery experience built for Apple Vision Pro.",
+          "Shape clay with your bare hands in spatial reality. A meditative pottery experience built for Apple Vision Pro.",
       },
       {
         property: "og:title",
-        content: "ClayStudio Early Access — Spatial Pottery on Apple Vision Pro",
+        content: "ClayStudio — Spatial Pottery on Apple Vision Pro",
       },
       {
         property: "og:description",
         content:
-          "Try ClayStudio in Early Access and shape clay with your bare hands in spatial reality. A meditative pottery experience for Apple Vision Pro.",
+          "Shape clay with your bare hands in spatial reality. A meditative pottery experience for Apple Vision Pro.",
       },
       { property: "og:image", content: icon },
       { name: "twitter:image", content: icon },
@@ -50,7 +50,7 @@ function Index() {
         <div>
           <span className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1 text-xs uppercase tracking-widest text-muted-foreground">
             <span className="h-1.5 w-1.5 rounded-full bg-accent" />
-            Early Access for Apple Vision Pro
+            First Public Release for Apple Vision Pro
           </span>
           <h1 className="mt-6 text-5xl md:text-7xl font-black leading-[0.95]">
             Shape clay <em className="not-italic text-primary">with your hands.</em>
@@ -60,6 +60,9 @@ function Index() {
             floats in front of you — form it directly with your fingertips. No controllers. Just
             craft.
           </p>
+          <p className="mt-4 text-sm text-muted-foreground max-w-lg leading-relaxed">
+            ClayStudio is evolving with new tools and materials coming in future updates.
+          </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
               href="https://www.apple.com/apple-vision-pro/"
@@ -67,7 +70,7 @@ function Index() {
               rel="noreferrer"
               className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-primary-foreground font-medium hover:opacity-90 transition shadow-lg shadow-primary/20"
             >
-              Try Early Access
+              Get it on App Store
             </a>
             <a
               href="#demo"

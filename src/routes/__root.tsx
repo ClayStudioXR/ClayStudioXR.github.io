@@ -67,11 +67,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ClayStudio Early Access — Pottery for Apple Vision Pro" },
+      { title: "ClayStudio — Pottery for Apple Vision Pro" },
       {
         name: "description",
         content:
-          "Try ClayStudio in Early Access. Shape clay with your hands in spatial reality. ClayStudio brings the potter's wheel to Apple Vision Pro — no controllers, just your hands.",
+          "Shape clay with your hands in spatial reality. ClayStudio brings the potter's wheel to Apple Vision Pro — no controllers, just your hands.",
       },
       { name: "author", content: "Martyna Talaga & Paweł Wasilewski" },
       { name: "theme-color", content: "#C17B5C" },
@@ -79,15 +79,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Inter:wght@400;500;600&display=swap",
-      },
-    ],
+    links: [{ rel: "stylesheet", href: appCss }],
   }),
   shellComponent: RootShell,
   component: RootComponent,
