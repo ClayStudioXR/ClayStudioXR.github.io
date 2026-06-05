@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import logo from "@/assets/claystudio-logo.png";
+import { withBasePath } from "@/lib/base-path";
 
 export function SiteHeader() {
   return (
@@ -10,13 +11,13 @@ export function SiteHeader() {
         </Link>
         <nav className="flex items-center gap-2 text-sm">
           <a
-            href="#experience"
+            href={withBasePath("/#experience")}
             className="hidden sm:inline px-3 py-2 text-muted-foreground hover:text-foreground"
           >
             Experience
           </a>
           <a
-            href="#demo"
+            href={withBasePath("/#demo")}
             className="hidden sm:inline px-3 py-2 text-muted-foreground hover:text-foreground"
           >
             Demo
