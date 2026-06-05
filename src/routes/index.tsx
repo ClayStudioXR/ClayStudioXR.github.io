@@ -139,6 +139,40 @@ function Index() {
         </div>
       </section>
 
+      {/* Support */}
+      <section id="support" className="mx-auto max-w-6xl px-6 py-16">
+        <div className="grid gap-8 md:grid-cols-[minmax(0,1.1fr)_minmax(0,0.9fr)] md:items-end">
+          <div>
+            <p className="text-sm uppercase tracking-widest text-muted-foreground">Support</p>
+            <h2 className="mt-3 text-4xl md:text-5xl font-bold max-w-2xl">
+              What you can do in ClayStudio.
+            </h2>
+          </div>
+          <p className="text-muted-foreground text-lg leading-relaxed max-w-xl">
+            The current release includes the core tools you need to shape, refine, and export your
+            pottery in spatial 3D.
+          </p>
+        </div>
+        <div className="mt-10 grid md:grid-cols-2 gap-5">
+          <Feature
+            title="Shape clay with your hands"
+            body="Work directly with the clay using natural hand tracking and sculpt it in real time."
+          />
+          <Feature
+            title="Adjust wheel speed from the control panel"
+            body="Fine-tune the wheel to match your pace, whether you want slow control or a faster spin."
+          />
+          <Feature
+            title="Undo, redo, or reset your piece anytime"
+            body="Experiment freely and recover from mistakes without losing the flow of your session."
+          />
+          <Feature
+            title="Export your pottery as a USDA file"
+            body="Save your work as a USDA file and open it later to inspect the piece in 3D."
+          />
+        </div>
+      </section>
+
       <SiteFooter />
     </div>
   );

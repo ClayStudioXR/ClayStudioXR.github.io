@@ -23,6 +23,12 @@ export function SiteHeader() {
             Demo
           </a>
           <a
+            href={withBasePath("/#support")}
+            className="hidden sm:inline px-3 py-2 text-muted-foreground hover:text-foreground"
+          >
+            Support
+          </a>
+          <a
             href="https://www.apple.com/apple-vision-pro/"
             target="_blank"
             rel="noreferrer"
