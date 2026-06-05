@@ -67,11 +67,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ClayStudio — Pottery for Apple Vision Pro" },
+      { title: "ClayStudio Early Access — Pottery for Apple Vision Pro" },
       {
         name: "description",
         content:
-          "Shape clay with your hands in spatial reality. ClayStudio brings the potter's wheel to Apple Vision Pro — no controllers, just your hands.",
+          "Try ClayStudio in Early Access. Shape clay with your hands in spatial reality. ClayStudio brings the potter's wheel to Apple Vision Pro — no controllers, just your hands.",
       },
       { name: "author", content: "Martyna Talaga & Paweł Wasilewski" },
       { name: "theme-color", content: "#C17B5C" },
