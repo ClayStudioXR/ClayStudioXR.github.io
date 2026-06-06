@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import icon from "@/assets/claystudio-icon.png";
-import appShot from "@/assets/claystudio-app.png";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { withBasePath } from "@/lib/base-path";
 
 export const Route = createFileRoute("/")({
@@ -124,17 +124,28 @@ function Index() {
               Launch the app from your Apple Vision Pro home screen, raise your hands, and begin.
               Every session is yours — slow, tactile, unhurried.
             </p>
-            <div className="mt-8 rounded-3xl border border-dashed border-border bg-card/40 p-8 text-center text-muted-foreground">
-              <p className="text-sm uppercase tracking-widest">Coming soon</p>
-              <p className="mt-2">Demo video will be embedded here.</p>
-            </div>
+            <p className="mt-4 text-sm text-muted-foreground max-w-md leading-relaxed">
+              Watch a short walkthrough of the current public build in action.
+            </p>
           </div>
           <div className="order-1 md:order-2">
-            <img
-              src={appShot}
-              alt="ClayStudio launch screen on visionOS"
-              className="w-full rounded-[4rem] shadow-2xl shadow-clay-deep/60"
-            />
+            <div className="overflow-hidden rounded-[2rem] border border-border/70 bg-card/60 shadow-2xl shadow-clay-deep/25">
+              <AspectRatio ratio={16 / 9}>
+                <iframe
+                  className="h-full w-full"
+                  src="https://www.youtube-nocookie.com/embed/cGe8FxOp844?si=rscECZcXZI3FdrlA"
+                  title="ClayStudio demo video"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </AspectRatio>
+            </div>
+            <p className="mt-3 text-sm text-muted-foreground">
+              Embedded from YouTube in privacy-enhanced mode.
+            </p>
           </div>
         </div>
       </section>

@@ -31,7 +31,7 @@ function WebsitePrivacyPage() {
       <main className="mx-auto max-w-3xl px-6 pt-16 pb-12 flex-1">
         <p className="text-sm uppercase tracking-widest text-muted-foreground">Legal</p>
         <h1 className="mt-3 text-5xl md:text-6xl font-bold">Website Privacy Notice</h1>
-        <p className="mt-3 text-muted-foreground">Last updated: June 5, 2026</p>
+        <p className="mt-3 text-muted-foreground">Last updated: June 6, 2026</p>
 
         <div className="prose prose-neutral mt-10 space-y-8 leading-relaxed">
           <section>
@@ -88,8 +88,26 @@ function WebsitePrivacyPage() {
             <h2 className="text-2xl font-semibold mb-3">Cookies and tracking</h2>
             <p className="text-muted-foreground">
               The current ClayStudio website does not intentionally use analytics cookies, ad
-              pixels, or similar tracking technologies. If that changes, we will update this notice
+              pixels, or similar tracking technologies of its own. However, embedded third-party
+              media may set or access cookies or similar storage depending on how you interact with
+              the player. If our website data practices change further, we will update this notice
               before or when the change becomes effective.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-2xl font-semibold mb-3">Embedded video</h2>
+            <p className="text-muted-foreground">
+              The website currently embeds a ClayStudio demo video from YouTube using YouTube's
+              privacy-enhanced mode through youtube-nocookie.com. When that embedded player loads or
+              you interact with it, Google/YouTube may process technical information such as your IP
+              address, browser and device details, referrer, and playback-related interactions in
+              order to deliver the video and protect the service.
+            </p>
+            <p className="mt-3 text-muted-foreground">
+              We do not receive that technical data directly from YouTube through this website.
+              YouTube's handling of that information is governed by Google's own terms and privacy
+              policy.
             </p>
           </section>
 
@@ -113,8 +131,12 @@ function WebsitePrivacyPage() {
             <ul className="list-disc pl-6 text-muted-foreground space-y-2">
               <li>GitHub and GitHub Pages for website hosting and delivery.</li>
               <li>Google/Gmail for email handling.</li>
+              <li>Google/YouTube for delivering the embedded demo video.</li>
               <li>Network, security, and infrastructure providers needed to deliver the site.</li>
-              <li>Professional advisers or public authorities where required by law or to protect our rights.</li>
+              <li>
+                Professional advisers or public authorities where required by law or to protect our
+                rights.
+              </li>
             </ul>
           </section>
 
@@ -141,9 +163,9 @@ function WebsitePrivacyPage() {
             <h2 className="text-2xl font-semibold mb-3">Children</h2>
             <p className="text-muted-foreground">
               The ClayStudio website is not directed to children in cases where parental consent is
-              required by applicable law. If you believe a child provided personal information to
-              us without appropriate consent, contact us and we will review the request and delete
-              that information where required.
+              required by applicable law. If you believe a child provided personal information to us
+              without appropriate consent, contact us and we will review the request and delete that
+              information where required.
             </p>
           </section>
 
@@ -151,18 +173,18 @@ function WebsitePrivacyPage() {
             <h2 className="text-2xl font-semibold mb-3">Your rights</h2>
             <p className="text-muted-foreground">
               Depending on where you live, you may have the right to request access, correction,
-              deletion, restriction, objection, or a copy of personal information we hold about
-              you, and to lodge a complaint with your local data protection authority. Because we
-              do not operate website user accounts, the information we can act on will usually be
-              limited to emails or records associated with your request.
+              deletion, restriction, objection, or a copy of personal information we hold about you,
+              and to lodge a complaint with your local data protection authority. Because we do not
+              operate website user accounts, the information we can act on will usually be limited
+              to emails or records associated with your request.
             </p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold mb-3">Changes</h2>
             <p className="text-muted-foreground">
-              If this notice changes, we will update the date above and post the new version at
-              this URL before the change takes effect.
+              If this notice changes, we will update the date above and post the new version at this
+              URL before the change takes effect.
             </p>
           </section>
 
