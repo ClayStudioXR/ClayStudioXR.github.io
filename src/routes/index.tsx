@@ -3,6 +3,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import icon from "@/assets/claystudio-icon.png";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { APP_STORE_URL } from "@/lib/app-store";
 import { withBasePath } from "@/lib/base-path";
 
 export const Route = createFileRoute("/")({
@@ -65,7 +66,7 @@ function Index() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="https://www.apple.com/apple-vision-pro/"
+              href={APP_STORE_URL}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center rounded-full bg-primary px-6 py-3 text-primary-foreground font-medium hover:opacity-90 transition shadow-lg shadow-primary/20"

@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import logo from "@/assets/claystudio-logo.png";
+import { APP_STORE_URL } from "@/lib/app-store";
 import { withBasePath } from "@/lib/base-path";
 
 export function SiteHeader() {
@@ -29,7 +30,7 @@ export function SiteHeader() {
             Support
           </a>
           <a
-            href="https://www.apple.com/apple-vision-pro/"
+            href={APP_STORE_URL}
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center rounded-full bg-primary px-4 py-2 text-primary-foreground font-medium hover:opacity-90 transition"
